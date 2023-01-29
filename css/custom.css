@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,400;1,300&display=swap");
+.main {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../image/webp.webp");
+  background-size: cover;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.title {
+  margin: 10px; 
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.col{
+    margin: 20px ;
+    width: 800px;
+    height: 70px;
+    /* border: 5px solid grey; */
+    display: flex;
+    
+    justify-content: center;
+    color: white;
+}
+.col div{
+    width: 250px;
+    text-align: center;
+}
+input{
+    background-color: rgba(255 , 255, 255, 0.8);
+    border-color: transparent;
+    border-radius: 5px;
+    height: 50px;
+    width: 60%;
+    display: inline-block;
+    /* color: white; */
+    text-align: center;
+}
